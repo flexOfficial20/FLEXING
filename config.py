@@ -22,13 +22,13 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9999999999999999999999999))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID")
+OWNER_ID = int(getenv("OWNER_ID", "6584789596")
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "flex-x-x-music-botx")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-0936de05-e153-49ca-acd3-0b8a2649713a")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
